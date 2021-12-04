@@ -1,0 +1,24 @@
+# general requirements
+pandas>=0.23.4
+numpy>=1.15.4
+scipy>=1.1.0
+scikit-learn>=0.21.3
+skorch>=0.9.0
+joblib>=0.13.1
+torch>=1.2.0
+tslearn>=0.4.1
+lapsolver>=1.1.0
+matplotlib>=3.4.2
+seaborn>=0.11.1
+
+# custom libraries
+-e git+https://github.com/qtux/PyTorchWavelets@63044d0f70620d974bd0505e69ffefafc4157384#egg=wavelets_pytorch
+
+# local packages
+-e auto_load
+-e preprocess
+
+# only required for recording data
+-e git+https://github.com/qtux/myo-raw@v2.2.1#egg=myo-raw
+-e git+https://github.com/qtux/XKeyboard@v1.1.1#egg=xkeyboard
+-e git+https://github.com/Kjili/AlienShower@v1.5.2#egg=alien_shower

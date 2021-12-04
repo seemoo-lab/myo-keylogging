@@ -1,0 +1,19 @@
+# ignore generated folders
+cache/
+results/analysis/
+results/ml/
+
+# ignore generated pdf and txt files
+results/**/*.pdf
+results/**/*.txt
+
+# ignore data folders and corresponding zip file from Zenodo
+train-data/
+test-data/
+myo-keylogging-dataset.zip
+
+# ignore python stuff
+.pytest_cache/
+__pycache__/
+.eggs/
+*.egg-info/
