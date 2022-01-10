@@ -220,7 +220,7 @@ Note that the recording software includes text extracts as outlined in the ackno
 Links
 -----
 
-- Our paper: https://doi.org/10.1145/3494986
+- Our paper: https://doi.org/10.1145/3494986 (on arXiv: https://arxiv.org/abs/2112.02382)
 - Our dataset: https://doi.org/10.5281/zenodo.5594651
 
 Acknowledgments
